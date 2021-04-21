@@ -1,0 +1,15 @@
+import styled from 'styled-components';
+
+export const StyledMenu = styled.nav`
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  height: 100vh;
+  text-align: left;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  transition: 0.5s ease-in-out;
+  right: ${({ open }) => open ? '0' : '-100%'};
+`

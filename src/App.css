@@ -25,8 +25,7 @@ body {
 }
 
 .activeTab {
-    border-bottom: 1px solid #fff;
-    color: #fff;
+    border-bottom: 1px solid #080808;
 }
 
 .intro {
@@ -78,16 +77,25 @@ body {
     }
 }
 
-.link {
+.link, 
+.mobileLink {
     transition: all 0.2s ease-in-out;
     position: relative;
 }
+
 .link:hover{
     cursor: pointer;
     color: #fff;
 }
+.mobileLink:hover {
+    cursor: pointer;
+    color: #080808; 
+}
+
 .link::before,
-.link::after {
+.link::after,
+.mobileLink::before,
+.mobileLink::after {
     content: "";
     position: absolute;
     bottom: -5px;
@@ -97,18 +105,37 @@ body {
     transition: all 0.2s ease-in-out;
     transition-duration: 300ms;
     opacity: 0;
+}
+
+.link::before,
+.link::after {
     background-color: #fff;
 }
+
+.mobileLink::before,
+.mobileLink::after {
+    background-color: #2d2d2d;
+}
+
 .link.link__underline::before,
-.link.link__underline::after {
+.link.link__underline::after,
+.mobileLink.mobileLink__underline::before,
+.mobileLink.mobileLink__underline::after{
     left: 0;
 }
+
 .link:hover::before,
 .link:hover::after,
 .link:focus::before,
 .link:focus::after,
 .link:active::before,
-.link:active::after {
+.link:active::after,
+.mobileLink:hover::before,
+.mobileLink:hover::after,
+.mobileLink:focus::before,
+.mobileLink:focus::after,
+.mobileLink:active::before,
+.mobileLink:active::after {
     width: 100%;
     opacity: 1;
 }

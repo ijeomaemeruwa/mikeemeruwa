@@ -19,8 +19,8 @@ const PortfolioSection = () => {
         <div className="flex flex-wrap w-full justify-center mx-auto mt-6">
          {
           featured.map(data => (
-          <a href={data.link} target="_blank"  rel="noopener noreferrer">
-            <Card key={data.id}>
+          <a href={data.link} target="_blank"  rel="noopener noreferrer" key={data.id}>
+            <Card>
              <div>
                <LazyLoadImage 
                 src={data.image} 
@@ -28,7 +28,7 @@ const PortfolioSection = () => {
                 alt={data.title}
                 className="w-full"
               />
-             <div className="w-9/12 py-3 pl-1">
+             <div className="w-full md:w-9/12 py-3 pl-1">
                <small className="capitalize font-manrope font-semibold text-sm md:text-base text-accent">
                 {data.tag} - {data.client}
                </small>

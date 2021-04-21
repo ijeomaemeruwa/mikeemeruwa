@@ -1,13 +1,26 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Nav from '../../components/Nav'
 import Footer from '../Footer/Footer'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import avi from '../../assets/mikeemeruwa.jpg'
+import PreLoader from '../../components/PreLoader';
 
 const AboutPage = () => {
+  const [isLoading, setIsLoading] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => {
+       setIsLoading(true)
+    }, 1000)
+   }, [])
+
     return (
     <>
+    {
+      !isLoading ? 
+    (<PreLoader />) :
+    (<div>
     <Nav />
     <div className="bg-darkAccent h-full pb-10">
     <h2 className="font-delta text-3xl md:text-5xl xl:text-6xl pl-4 pb-8 pt-10 text-white">Heyy, It's Mike -</h2>
@@ -48,6 +61,8 @@ const AboutPage = () => {
     </div>
     </div>
     <Footer />
+    </div>
+    )}
     </>
     )
 }

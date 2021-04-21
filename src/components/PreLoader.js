@@ -1,15 +1,12 @@
 import React from 'react'
-import LoadingOverlay from 'react-loading-overlay'
-import HashLoader from 'react-spinners/HashLoader'
+import BarLoader from "react-spinners/BarLoader";
 
-const PreLoader = ({active, children}) => {
+
+const PreLoader = () => {
     return (
-    <LoadingOverlay
-      active={active}
-      spinner={<HashLoader />}
-    >
-      {children}
-    </LoadingOverlay>  
+     <div className="bg-black" style={{height: '100vh'}}>
+      <BarLoader color='#080808' loading={true} size={200} />
+     </div>
     )
 }
 
