@@ -1,13 +1,20 @@
-import React from 'react'
-import BarLoader from "react-spinners/BarLoader";
+// import React from 'react'
+// import BarLoader from "react-spinners/BarLoader";
 
+// const [isLoading, setIsLoading] = useState(false)
 
-const PreLoader = () => {
-    return (
-     <div className="bg-black" style={{height: '100vh'}}>
-      <BarLoader color='#080808' loading={true} size={200} />
-     </div>
-    )
-}
+//   useEffect(() => {
+//     setTimeout(() => {
+//        setIsLoading(true)
+//     }, 500)
+//    }, [])
 
-export default PreLoader
+// const PreLoader = () => {
+//     return (
+//      <div className="bg-black" style={{height: '100vh'}}>
+//       <BarLoader color='#080808' loading={true} size={200} />
+//      </div>
+//     )
+// }
+
+// export default PreLoader

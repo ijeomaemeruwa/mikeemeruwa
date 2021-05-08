@@ -4,6 +4,7 @@ import Card from '../../components/Card'
 import {Link} from 'react-router-dom'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import Fade from 'react-reveal/Fade';
 
 
 const PortfolioSection = () => {
@@ -11,9 +12,11 @@ const PortfolioSection = () => {
       <>
       <section className="bg-white h-full">
           <div className="w-2/5 pt-7">
+            <Fade bottom cascade>
             <h2 className="font-delta text-2xl text-dark md:text-5xl pt-11 pb-10 pl-6">
               Recent Work -
             </h2> 
+            </Fade>
           </div>
 
         <div className="flex flex-wrap w-full justify-center mx-auto mt-6">

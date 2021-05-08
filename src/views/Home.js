@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import Nav from '../components/Nav'
  import {
     Intro, 
@@ -9,28 +9,16 @@ import Nav from '../components/Nav'
 
  
  const Home = () => {
-    const [isLoading, setIsLoading] = useState(false)
-
-    useEffect(() => {
-      setTimeout(() => {
-         setIsLoading(true)
-      }, 500)
-     }, [])
 
     return (
     <>
-    {
-        !isLoading ? 
-        (<span>Loading...</span>) :
-
-        (<main className="w-full">
+   <main className="w-full">
             <Nav />
             <Intro />
             <AboutHome />  
             <PortfolioSection />  
             <Footer /> 
-        </main>)
-    }
+        </main>
     </>
 )}
  

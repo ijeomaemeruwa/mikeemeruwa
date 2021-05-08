@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import {articles} from '../../data/articles'
 import Card from '../../components/Card'
 import Footer from '../Footer/Footer'
@@ -10,21 +10,10 @@ import {TiArrowLeftThick} from 'react-icons/ti'
 
 
 const Portfolio = () => {
-  const [isLoading, setIsLoading] = useState(false)
-
-  useEffect(() => {
-    setTimeout(() => {
-       setIsLoading(true)
-    }, 500)
-   }, [])
 
 return (
 <>
-{
-  !isLoading ? 
-  (<span>Loading...</span>) : 
-  
-  (<div>
+<div>
     <Nav />
     <section>
     <Link to="/">
@@ -36,8 +25,8 @@ return (
     <div className="flex flex-wrap w-full justify-center mx-auto mt-11">
       {
       articles.map(data => (
-          <a href={data.link} target="_blank"  rel="noopener noreferrer">
-            <Card key={data.id}>
+          <a href={data.link} target="_blank"  rel="noopener noreferrer" key={data.id}>
+            <Card>
               <div>
               <LazyLoadImage 
                 src={data.image} 
@@ -65,8 +54,7 @@ return (
     </section>
     
     <Footer />
-    </div>)
-}
+    </div>
 </>
 )
 }
