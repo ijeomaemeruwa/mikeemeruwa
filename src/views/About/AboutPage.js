@@ -15,13 +15,13 @@ const AboutPage = () => {
     <Nav />
     <div className="bg-darkAccent h-full pb-10">
       <Fade left cascade>
-      <h2 className="font-delta text-3xl md:text-5xl xl:text-6xl pl-4 pb-8 pt-10 text-white">
+      <h2 className="font-delta text-xl md:text-5xl xl:text-6xl pl-4 pb-8 pt-10 text-white text-center">
         Heyy, It's Mike -
       </h2>
       </Fade>
 
     <div className="flex flex-wrap justify-center items-center mx-auto py-8">
-      <div style={{maxWidth: '450px'}} className="px-2">
+      <div style={{maxWidth: '400px'}} className="px-2">
       <LazyLoadImage 
         src={avi} 
         effect="blur" 
@@ -30,7 +30,7 @@ const AboutPage = () => {
        />
       </div>
       <div className="text-white text-base md:text-base md:pl-5 tracking-wider font-poppins text-left w-full px-2 pt-2 md:w-2/4">
-          <p className="leading-loose">
+          <p className="leading-loose mb-8">
           I am a copywriter, web content writer, technical writer, and SEO expert with skills in creating engaging web content, editing, and proofreading.
           My background in English & literature allows me to navigate the aspects of English such as grammar and comprehension with ease.
           I create sublime work when I combine my creativity and authenticity with the fundamentals of any of my aforementioned skills.
