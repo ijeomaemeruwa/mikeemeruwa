@@ -37,7 +37,7 @@ const AboutPage = () => {
           </p>
           <p className="leading-loose">
           I've published over 40 articles, copy, and web content combined in the past year and I've also garnered more than 800 active readers in my blog using SEO.
-          I love to learn and the process of researching unfamiliar topics excited me.
+          I love to learn and the process of researching unfamiliar topics excites me.
           </p>
       </div>
     </div>
