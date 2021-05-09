@@ -16,8 +16,7 @@ const Intro = () => {
       </Pulse>
 
       <p 
-        className="flex text-center text-grey items-center text-base font-semibold font-poppins tracking-wider pt-10 border-b-2 border-grey hover:text-white hover:border-white" 
-        style={{width: '133px'}}
+        className="flex text-center text-grey items-center text-sm md:text-base font-regular font-poppins border-b tracking-wider pt-11 hover:text-white"
       >
         <Link to="/about">More About Me</Link>
       </p>

@@ -12,13 +12,13 @@ import Nav from '../components/Nav'
 
     return (
     <>
-   <main className="w-full">
-            <Nav />
-            <Intro />
-            <AboutHome />  
-            <PortfolioSection />  
-            <Footer /> 
-        </main>
+   <main>
+        <Nav />
+        <Intro />
+        <AboutHome />  
+        <PortfolioSection />  
+        <Footer /> 
+    </main>
     </>
 )}
  

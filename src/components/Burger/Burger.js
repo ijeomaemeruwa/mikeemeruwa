@@ -1,6 +1,8 @@
 import React from 'react'
 import { StyledBurger } from './Burger.styled';
 
+//<MobileNav open={open} setOpen={setOpen} />
+
 const Burger = ({open, setOpen}) => {
     return (
     <>

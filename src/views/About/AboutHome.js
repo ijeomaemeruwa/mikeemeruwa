@@ -7,7 +7,7 @@ const AboutHome = () => {
     return (
     <>
     <section className="bg-dark py-11 h-full">
-    <div className="flex flex-wrap justify-evenly m-auto w-4/5 md:w-full h-full text-grey font-poppins">
+    <div className="flex flex-wrap justify-evenly m-auto w-full h-full text-grey font-poppins">
     
     <div className="services">
       <span className="text-4xl lg:text-5xl"><IoLaptopOutline /></span>

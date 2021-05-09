@@ -11,7 +11,7 @@ const PortfolioSection = () => {
     return (
       <>
       <section className="bg-white h-full">
-          <div className="w-2/5 pt-7">
+          <div className="pt-7">
             <Fade bottom cascade>
             <h2 className="font-delta text-2xl text-dark md:text-5xl pt-11 pb-10 pl-6">
               Recent Work -

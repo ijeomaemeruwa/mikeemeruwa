@@ -50,6 +50,12 @@ body {
     z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+    .scroll {
+        left: 85%;
+    }
+}
+
 .icon {
     width: 20px;
     height: 20px;
