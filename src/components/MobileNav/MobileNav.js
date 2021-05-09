@@ -27,10 +27,31 @@ const MobileNav = ({open}) => {
             Contact 
         </a>
     </li>
+    <li className="mb-7 mobileLink mobileLink__underline list-none mt-3">
+        Resume 
+    </li>
     <div className="flex pb-4 mt-3">
-      <span className="pr-4 text-3xl text-black hover:text-dark"><AiFillLinkedin /></span>
-      <span className="pr-4 text-3xl text-black hover:text-dark"><AiFillTwitterSquare /></span>
-      <span className="pr-4 text-3xl text-black hover:text-dark"><AiFillFacebook /></span>
+      <span className="pr-4 text-3xl text-black hover:text-dark">
+       <a
+        href="https://linkedin.com/in/mike-emeruwa-19b830208/" 
+        target="_blank"  rel="noopener noreferrer">
+        <AiFillLinkedin />
+       </a>
+      </span>
+      <span className="pr-4 text-3xl text-black hover:text-dark">
+       <a
+        href="https://twitter.com/mikeemeruwa" 
+        target="_blank"  rel="noopener noreferrer">
+        <AiFillTwitterSquare />
+       </a>
+      </span>
+      <span className="pr-4 text-3xl text-black hover:text-dark">
+      <a
+        href="https://facebook.com/mike.emeruwa/" 
+        target="_blank"  rel="noopener noreferrer">
+        <AiFillFacebook />
+      </a>
+      </span>
     </div>
     </div>
         

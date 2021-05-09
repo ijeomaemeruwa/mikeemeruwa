@@ -18,13 +18,41 @@ const Socials = () => {
           </div> 
           <div className="flex flex-col text-white font-poppins">
              <div className="flex pb-4">
-                <span className="pr-4 text-xl md:text-2xl hover:text-primary"><AiFillLinkedin /></span>
-                <span className="pr-4 text-xl md:text-2xl hover:text-primary"><AiFillTwitterSquare /></span>
-                <span className="pr-4 text-xl md:text-2xl hover:text-primary"><AiFillFacebook /></span>
+                <span className="pr-4 text-xl md:text-2xl hover:text-primary">
+                <a
+                  href="https://linkedin.com/in/mike-emeruwa-19b830208/" 
+                  target="_blank"  rel="noopener noreferrer">
+                  <AiFillLinkedin />
+                </a>
+                </span>
+
+                <span className="pr-4 text-xl md:text-2xl hover:text-primary">
+                <a
+                  href="https://twitter.com/mikeemeruwa" 
+                  target="_blank"  rel="noopener noreferrer">
+                  <AiFillTwitterSquare />
+                </a>
+                </span>
+
+                <span className="pr-4 text-xl md:text-2xl hover:text-primary">
+                <a
+                  href="https://facebook.com/mike.emeruwa/" 
+                  target="_blank"  rel="noopener noreferrer">
+                  <AiFillFacebook />
+                </a>
+                </span>
              </div>
              <div className="flex">
-               <p className="link link__underline mr-4 text-sm md:text-base">Blog</p> 
-               <p className="link link__underline mr-2 text-sm md:text-base">Resume</p> 
+               <p className="link link__underline mr-4 text-sm md:text-base">
+               <a
+                  href="https://medium.com/@mikeemeruwa98" 
+                  target="_blank"  rel="noopener noreferrer">
+                   Blog
+                </a>
+               </p> 
+               <p className="link link__underline mr-2 text-sm md:text-base">
+                Resume
+               </p> 
              </div> 
           </div>     
         </div>  

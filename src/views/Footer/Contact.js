@@ -11,7 +11,13 @@ const Contact = () => {
       </p>
       <div className="link link__underline font-delta text-xl md:text-5xl lg:text-6xl text-grey flex justify-center items-center">
         <Fade bottom cascade>
-         <h2 className="pb-3">Let's Work Together </h2> 
+         <h2 className="pb-3">
+          <a 
+           href="mailto:mikeemeruwa98@gmail.com" 
+           target="_blank"  rel="noopener noreferrer">
+           Let's Work Together
+          </a> 
+         </h2> 
         </Fade> 
         <span className="pl-2 pb-1 md:pt-2"><TiArrowRightThick /></span>  
       </div>   
