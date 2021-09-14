@@ -24,22 +24,32 @@ const Nav = () => {
               <MobileNav open={open} setOpen={setOpen} />
             </div>
             
-            <ul className="font-poppins font-medium text-base text-grey hidden lg:flex">
-                <NavLink to="/" className="link link__underline mr-7" >
+            <ul className="font-poppins font-regular text-base text-white hidden lg:flex">
+                <li>
+                <NavLink to="/" exact activeClassName="active" className="link link__underline mr-10" >
                     Home
                 </NavLink>
-                <NavLink to="/about" className="link link__underline mr-7">
-                    About me
+                </li>
+               
+                <li>
+                <NavLink to="/about" exact activeClassName="active" className="link link__underline mr-10">
+                    About
                 </NavLink>
-                <NavLink to="/portfolio" className="link link__underline mr-7">
-                    Portfolio
+
+                </li>
+               
+                <li>
+                <NavLink to="/portfolio" exact activeClassName="active" className="link link__underline mr-10">
+                    My work
                 </NavLink>
+                </li>     
+
               <li className="mr-7 link link__underline">
                 <a href="mailto:mikeemeruwa98@gmail.com" 
                   target="_blank"  rel="noopener noreferrer">
                  Contact 
                 </a>
-            </li>
+              </li>
             </ul>
         </div>         
         </nav>  

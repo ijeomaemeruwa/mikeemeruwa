@@ -31,11 +31,11 @@ const PortfolioSection = () => {
                 alt={data.title}
                 className="w-full"
               />
-             <div className="w-full md:w-9/12 py-3 pl-1">
-               <small className="capitalize font-manrope font-semibold text-sm md:text-base text-accent">
+             <div className="w-full md:w-10/12 py-3 pl-1">
+               <small className="capitalize font-manrope font-medium text-sm md:text-base text-accent">
                 {data.tag} - {data.client}
                </small>
-               <h5 className="font-delta text-black text-base md:text-lg pt-3 tracking-wider">
+               <h5 className="font-delta text-black text-lg md:text-2xl pt-3 tracking-wider">
                 {data.title}
                </h5>
                <p className="flex items-center text-sm md:text-base font-manrope pt-4 border-b border-grey hover:border-black" style={{width: '80px'}}>

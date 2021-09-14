@@ -27,7 +27,6 @@ const App = () => {
     </Suspense>
     <ScrollToTop />
     </Router>
-    
     </>
   );
 }

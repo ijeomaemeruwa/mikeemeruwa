@@ -50,6 +50,10 @@ body {
     z-index: 1;
 }
 
+.active {
+    border-bottom: 2px solid white;
+}
+
 @media screen and (max-width: 768px) {
     .scroll {
         left: 85%;
@@ -93,6 +97,7 @@ body {
     cursor: pointer;
     color: #fff;
 }
+
 .mobileLink:hover {
     cursor: pointer;
     color: #080808; 

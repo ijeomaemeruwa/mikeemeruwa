@@ -1,42 +1,104 @@
+import game from '../assets/game.jpg'
+import food from '../assets/food.jpg'
+import crypto from '../assets/crypto.jpg'
+import lens from '../assets/lens.jpg'
+import content from '../assets/content.jpeg'
+
 
 export const featured = [
     {
         id: 1,
+        title: "Is Cryptocurrency the Future of Money?",
+        tag: "Cryptocurrrency",
+        link: "https://mikeemeruwa.medium.com/is-cryptocurrency-the-future-of-money-2463d42f2e13",
+        client: "Medium",
+        image: crypto
+    },
+    {
+        id: 2,
+        title: "How Not To Be Mediocre in Content Writing as a Beginner",
+        tag: "Content writing",
+        link: "https://mikeemeruwa.medium.com/how-not-to-be-mediocre-in-content-writing-as-a-beginner-a42d9b217b3f",
+        client: "Medium",
+        image: content
+    },
+    {
+        id: 3,
+        title: "Breakup Breakfast",
+        tag: "Food",
+        link: "https://raffiscuisine.wordpress.com/2021/05/17/breakup-breakfast-mike-emeruwa/",
+        client: "Raffis Cuisine",
+        image: food
+    },
+    {
+        id: 4,
+        title: "Anti-Blue Light Glasses: Why Everyone Needs One",
+        tag: "Productivity",
+        link: "https://mikeemeruwa.medium.com/anti-blue-light-glasses-why-everyone-needs-one-a1d6c6994f0e",
+        client: "Medium",
+        image: lens
+    },
+    {
+        id: 5,
+        title: "12 Nostalgic 90s Video Games",
+        tag: "Gaming",
+        link: "https://mikeemeruwa.medium.com/12-nostalgic-90s-video-games-7695915b2237",
+        client: "Medium",
+        image: game
+    },
+    {
+        id: 6,
         title: "Sergio Ramos To Miss Six Weeks After Knee Surgery",
         tag: "Sports",
         link: "https://news.scorefam.org/sergio-ramos-to-miss-six-weeks-after-knee-sugery/",
         client: "Scorefam",
         image: "https://i.pinimg.com/originals/08/88/28/0888289bdf7ada319a77e2622eaf6db2.jpg"
     },
-    {
-        id: 2,
-        title: "Dennis Rodman: The man beyond his time",
-        tag: "Fashion & Culture",
-        link: "https://www.klustersports.com/posts/dennis-rodman-the-man-beyond-his-time",
-        client: "Kluster Sports",
-        image: "https://cdn2.newsok.biz/cache/large960_blur-be66b468d6e1c7b1b43f6bd9788b9136.jpg"
-    },
-    {
-        id: 3,
-        title: "Neuer Surpasses Oliver Kahn",
-        tag: "Sports",
-        link: "https://news.scorefam.org/neuer-surpasses-oliver-kahn/",
-        client: "Scorefam",
-        image: "https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_500,h_283/https://soccer-training-info.com/wp-content/uploads/2019/06/manuel_neuer_cross-1.jpg"
-    },
-    {
-        id: 4,
-        title: "The Last Dance, Not Just a Sport Documentary",
-        tag: "Sports",
-        link: "https://www.klustersports.com/posts/the-last-dance-not-just-a-sport-documentary",
-        client: "Kluster Sports",
-        image: "https://c4.wallpaperflare.com/wallpaper/194/180/892/monochrome-michael-jordan-wallpaper-preview.jpg"
-    },
 ]
 
 
 
 export const articles = [
+    {
+        id: 11,
+        title: "Is Cryptocurrency the Future of Money?",
+        tag: "Cryptocurrrency",
+        link: "https://mikeemeruwa.medium.com/is-cryptocurrency-the-future-of-money-2463d42f2e13",
+        client: "Medium",
+        image: crypto
+    },
+    {
+        id: 12,
+        title: "How Not To Be Mediocre in Content Writing as a Beginner",
+        tag: "Content writing",
+        link: "https://mikeemeruwa.medium.com/how-not-to-be-mediocre-in-content-writing-as-a-beginner-a42d9b217b3f",
+        client: "Medium",
+        image: content
+    },
+    {
+        id: 13,
+        title: "Breakup Breakfast",
+        tag: "Food",
+        link: "https://raffiscuisine.wordpress.com/2021/05/17/breakup-breakfast-mike-emeruwa/",
+        client: "Raffis Cuisine",
+        image: food
+    },
+    {
+        id: 14,
+        title: "Anti-Blue Light Glasses: Why Everyone Needs One",
+        tag: "Productivity",
+        link: "https://mikeemeruwa.medium.com/anti-blue-light-glasses-why-everyone-needs-one-a1d6c6994f0e",
+        client: "Medium",
+        image: lens
+    },
+    {
+        id: 15,
+        title: "12 Nostalgic 90s Video Games",
+        tag: "Gaming",
+        link: "https://mikeemeruwa.medium.com/12-nostalgic-90s-video-games-7695915b2237",
+        client: "Medium",
+        image: game
+    },
     {
         id: 1,
         title: "The NCAA Final Four: The End of March Madnes",
